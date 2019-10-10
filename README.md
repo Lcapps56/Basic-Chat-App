@@ -10,4 +10,4 @@ A very basic chat app where users can connect, have their own "name", send messa
 # Technologies used
 * HTML/CSS
 * Node.js
-* socket.io Server
+* socket.io 
