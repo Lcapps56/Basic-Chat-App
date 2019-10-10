@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic chat app</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script defer src="script.js"></script>
     <style>
         body {
             padding: 0;
             margin: 0;
-            display: flex;
-            justify-content: center;
+            align-content: center;
+            /* display: flex; */
+            /* justify-content: center; */
         }
         #message-container {
-            width: 80%;
+            /* padding: 50px; */
+            /* margin: 40px; */
+            width: 100%;
             max-width: 1200px;
+            text-align: left;
+            margin-top: 30px;
+            margin-bottom: 50px;
         }
         #message-container div{
             background-color: #CCC;
@@ -28,12 +35,18 @@
     </style>
 </head>
 <body>
-    <div id="message-container">
+    <header>
+        <h1>A very simple Chat App</h1>
+        <p>Really, it only took like 15 minutes to make</p>
+    </header>
+    <div class="everythingElse">
+        <div id="message-container">
 
+        </div>
+        <form action="" id="send-container">
+            <input type="text" id="message-input">
+            <button type="submit" id="send">Send</button>
+        </form>
     </div>
-    <form action="" id="send-container">
-        <input type="text" id="message-input">
-        <button type="submit" id="send">Send</button>
-    </form>
 </body>
 </html>
