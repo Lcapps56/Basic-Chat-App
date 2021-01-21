@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Lcapps56/Basic-Chat-App#readme",
   "dependencies": {
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
